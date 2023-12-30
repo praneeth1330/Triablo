@@ -1,6 +1,5 @@
 import React from "react";
 import Nav from "./Nav";
-import Fade from "react-reveal/Fade";
 
 const Header = () => {
 	return (
