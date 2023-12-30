@@ -1,7 +1,6 @@
 import React, { useContext } from "react";
 import { NavContext } from "../context/ContextProvider";
 import { IoCart } from "react-icons/io5";
-import Fade from "react-reveal/Fade";
 import { IoSearchSharp } from "react-icons/io5";
 import { NavLink } from "react-router-dom";
 

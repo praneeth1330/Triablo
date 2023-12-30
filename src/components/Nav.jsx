@@ -1,4 +1,4 @@
-import React, { useContext } from "react";
+import React, { useContext, useEffect, useRef } from "react";
 import { IoSearchSharp } from "react-icons/io5";
 import { IoMenu } from "react-icons/io5";
 import { IoClose } from "react-icons/io5";
@@ -23,9 +23,7 @@ const Nav = () => {
 			type: "search",
 		});
 	};
-	const handleClick = () => {
-		state.nav = false;
-	};
+
 	return (
 		<>
 			<div className="relative">
@@ -85,7 +83,7 @@ const Nav = () => {
 					</div>
 					<div className="">
 						{state.nav && (
-							<div className="lg:hidden relative">
+							<div className="lg:hidden relative ">
 								<div className="relative">
 									<div className="flex items-center justify-center text-center bg-white">
 										<div
@@ -98,7 +96,7 @@ const Nav = () => {
 											{navLinks?.map((name, index) => (
 												<div className="" key={index}>
 													<div className=" ">
-														<NavLink to={name.path} onClick={handleClick}>
+														<NavLink to={name.path} onClick={handleToggle}>
 															{name.title}
 														</NavLink>
 													</div>
