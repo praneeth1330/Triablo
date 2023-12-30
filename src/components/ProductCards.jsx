@@ -1,6 +1,10 @@
 import React, { useContext } from "react";
 import { NavContext } from "../context/ContextProvider";
 import { IoCart } from "react-icons/io5";
+<<<<<<< HEAD
+=======
+
+>>>>>>> 78100785d3e7cc04354dab6669bbf1e09611baf9
 import { IoSearchSharp } from "react-icons/io5";
 import { NavLink } from "react-router-dom";
 
