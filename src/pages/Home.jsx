@@ -33,6 +33,7 @@ const Home = () => {
 							</div>
 						</div>
 					</div>
+					{/* changes made */}
 					<WhyTriablo />
 				</div>
 				<Deliverys />
