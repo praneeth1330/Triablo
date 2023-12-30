@@ -15,7 +15,7 @@ const ProductCards = () => {
 				<div className="">
 					<div className="text-center my-10">
 						<h3 className="lg:text-4xl text-2xl tracking-widest">
-							<Fade bottom>WE MAKE YOU AWESOME</Fade>
+							WE MAKE YOU AWESOME
 						</h3>
 					</div>
 					<div className=" flex items-center justify-center ">
