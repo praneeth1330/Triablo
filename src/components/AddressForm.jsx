@@ -14,7 +14,7 @@ const AddressForm = () => {
 					</div>
 				</div>
 				<div className=" flex-col space-y-5">
-					<h4 className="uppercase font-semibold"> shipping information</h4>
+					<h4 className="uppercase font-semibold"> Shipping information</h4>
 					<div className=" px-5 flex-col space-y-5">
 						<div className="grid grid-cols-2 gap-2">
 							<div className=" flex-col items-center  ">
