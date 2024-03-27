@@ -80,7 +80,7 @@ const AddressForm = () => {
 							<div className=" flex-col items-center  ">
 								<div className="">
 									<label htmlFor="name" className="  ">
-										state
+										State
 									</label>
 								</div>
 
