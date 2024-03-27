@@ -29,7 +29,7 @@ const AddressForm = () => {
 							<div className=" flex-col items-center  ">
 								<div className="">
 									<label htmlFor="name" className="  ">
-										lastname
+										Lastname
 									</label>
 								</div>
 
@@ -52,7 +52,7 @@ const AddressForm = () => {
 							<div className=" flex-col items-center  ">
 								<div className="">
 									<label htmlFor="name" className="  ">
-										city
+										City
 									</label>
 								</div>
 
@@ -61,7 +61,7 @@ const AddressForm = () => {
 							<div className=" flex-col items-center  ">
 								<div className="">
 									<label htmlFor="name" className="  ">
-										country
+										Country
 									</label>
 								</div>
 
@@ -70,7 +70,7 @@ const AddressForm = () => {
 									id=""
 									className="w-full h-10 rounded-lg px-2"
 								>
-									<option value="">select country</option>
+									<option value="">Select Country</option>
 									<option value=""> United States</option>
 									<option value=""> India</option>
 								</select>
@@ -89,7 +89,7 @@ const AddressForm = () => {
 							<div className=" flex-col items-center  ">
 								<div className="">
 									<label htmlFor="name" className="  ">
-										postal code
+										Postal Code
 									</label>
 								</div>
 
@@ -99,7 +99,7 @@ const AddressForm = () => {
 						<div className=" flex-col items-center  ">
 							<div className="">
 								<label htmlFor="name" className="  ">
-									phone
+									Phone
 								</label>
 							</div>
 
@@ -107,7 +107,7 @@ const AddressForm = () => {
 						</div>
 						<div className="w-full text-center">
 							<button className="bg-blue-500 hover:bg-blue-700 text-white font-bold w-full py-2 px-4 rounded-lg">
-								place order
+								Place order
 							</button>
 						</div>
 					</div>
